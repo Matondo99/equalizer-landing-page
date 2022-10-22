@@ -1,0 +1,42 @@
+:root {
+  --clr-neutral-10: #FCFAF9;
+  --clr-neutral-80: #191826;
+  --clr-primary-10: #FA7453;
+  --clr-primary-20: #FFB964;
+  --clr-primary-30: #66E2DC;
+  --ff-sans: 'IBM Plex Sans', sans-serif;
+  --fz-X: 40px;
+  --fz-body: 16px;
+  --fz-card: 18px;
+  --fz-L: 32px;
+  --fz-price-p: 20px;
+  --fz-btn: 18px;
+  --fz-footer: 16px;
+  --fw-reg: 400;
+  --fw-bold: 700;
+}
+
+/*==================================================
+ ================= General Settings ================
+ ===================================================*/
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  line-height: 1;
+}
