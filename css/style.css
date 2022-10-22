@@ -75,8 +75,11 @@ body {
   font-size: var(--fz-body);
   font-weight: var(--fw-reg);
   color: var(--clr-neutral-80);
-  background: url(../images/bg-main-mobile.png) no-repeat 30vw -6em/90%;
   line-height: 1.5;
+}
+
+.background {
+  background: url(../images/bg-main-mobile.png) no-repeat 30vw -5rem/90%;
 }
 
 a.btn {
@@ -247,9 +250,9 @@ main {
     --fz-body: 18px;
   }
 
-  body {
+  .background {
     background-image: url(../images/bg-pattern-1.svg), url(../images/bg-main-tablet.png);
-    background-position: 75vw -1.5vw, -7em -7em;
+    background-position: 75vw -1.5vw, -7rem -7rem;
     background-size: 25%, 125%;
   }
 
@@ -310,7 +313,7 @@ main {
     --fz-card: 20px;
   }
 
-  body {
+  .background {
     background-image: url(../images/bg-pattern-1.svg), url(../images/bg-main-desktop.png);
     background-position: right -2em, -7em -7em;
     background-size: auto, 115%;
