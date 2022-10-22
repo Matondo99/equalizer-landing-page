@@ -15,6 +15,7 @@ This is a solution to the [Equalizer landing page challenge on Frontend Mentor](
   - [My process](#my-process)
     - [Built with](#built-with)
     - [The Man Remembers 😶](#the-man-remembers-)
+  - [The BIG ISSUE](#the-big-issue)
   - [Author](#author)
 
 ## Overview
@@ -100,6 +101,28 @@ Insert `.svg` image files two ways:
         fill: var(--clr-primary-10);
       }
      ```
+
+## The BIG ISSUE
+
+After deployment multiple background display was just calamitous on desktop for MSEdge and Google Chrome. After multiple commits I fixed that out by removing background from the body to a general wraper.
+
+```html
+<body>
+  <div class="background">
+    <!--  All the content -->
+  </div>
+</body>
+```
+
+Accordingly CSS went from the first quoted code in [The Man Remembers 😶](#the-man-remembers-) to this:
+
+```css
+  .background {
+    background-image: url(../images/bg-pattern-1.svg), url(../images/bg-main-tablet.png);
+    background-position: 75vw -1.5vw, -7rem -7rem;
+    background-size: 25%, 125%;
+}
+```
 
 ## Author
 
