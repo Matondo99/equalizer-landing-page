@@ -46,7 +46,7 @@ Users should be able to:
 
 ### Links
 
-- [My Frontend Mentor Solution]() of the Equalizer landing page challenge.
+- [My Frontend Mentor Solution](https://www.frontendmentor.io/solutions/the-art-of-flexing-css-to-your-will-ctL0gN6LKD) of the Equalizer landing page challenge.
 - [Live site](https://matondo99.github.io/equalizer-landing-page/) of the Equalizer landing page.
 
 ## My process
