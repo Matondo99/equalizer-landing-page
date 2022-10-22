@@ -255,7 +255,8 @@ main {
     background-image: url(../images/bg-pattern-1.svg), url(../images/bg-main-tablet.png);
     background-position: 102% -1.5rem, -7rem -7rem;
     background-size: 25%, 125%;
-  }
+    background-repeat: no-repeat, no-repeat;
+}
 
   main {
     --cont-width: 90%;
@@ -318,6 +319,7 @@ main {
     background-image: url(../images/bg-pattern-1.svg), url(../images/bg-main-desktop.png);
     background-position: right -2rem, -7rem -7rem;
     background-size: auto, 115%;
+    background-repeat: no-repeat, no-repeat;
   }
 
   main {
