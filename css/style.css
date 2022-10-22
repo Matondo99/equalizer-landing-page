@@ -80,10 +80,6 @@ body {
 
 .background {
   background: url(../images/bg-main-mobile.png) no-repeat 30vw -5rem/90%;
-  /* background-image: url(../images/bg-main-mobile.png);
-  background-repeat: no-repeat;
-  background-position: 220% -5rem;
-  background-size: 90%; */
 }
 
 a.btn {
@@ -256,7 +252,7 @@ main {
 
   .background {
     background-image: url(../images/bg-pattern-1.svg), url(../images/bg-main-tablet.png);
-    background-position: 102% -1.5rem, -7rem -7rem;
+    background-position: 75vw -1.5vw, -7rem -7rem;
     background-size: 25%, 125%;
 }
 
