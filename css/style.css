@@ -78,7 +78,7 @@ body {
   /* background: url(../images/bg-main-mobile.png) no-repeat 30vw -6em/90%; */
   background-image: url(../images/bg-main-mobile.png);
   background-repeat: no-repeat;
-  background-position: 30vw -6em;
+  background-position: 220% -5rem;
   background-size: 90%;
   line-height: 1.5;
 }
@@ -253,7 +253,7 @@ main {
 
   body {
     background-image: url(../images/bg-pattern-1.svg), url(../images/bg-main-tablet.png);
-    background-position: 75vw -1.5vw, -7em -7em;
+    background-position: 102% -1.5rem, -7rem -7rem;
     background-size: 25%, 125%;
   }
 
@@ -316,7 +316,7 @@ main {
 
   body {
     background-image: url(../images/bg-pattern-1.svg), url(../images/bg-main-desktop.png);
-    background-position: right -2em, -7em -7em;
+    background-position: right -2rem, -7rem -7rem;
     background-size: auto, 115%;
   }
 
