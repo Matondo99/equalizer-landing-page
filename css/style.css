@@ -40,3 +40,48 @@ h3,
 h4 {
   line-height: 1;
 }
+
+.flowise>* {
+  margin-bottom: 1rem;
+}
+
+.flowise>*:last-child {
+  margin-bottom: 0;
+}
+
+.flowise>*+* {
+  margin-top: 1em;
+}
+
+.flexwise {
+  display: flex;
+  flex-direction: var(--flex-dir, column);
+  justify-content: var(--flex-justice, space-between);
+}
+
+.flexwise>*+* {
+  margin-top: var(--flex-row-top-marg, 2rem);
+  margin-left: var(--flex-row-left-marg, 0);
+}
+
+.paddwise {
+  padding-top: calc(var(--fz-body) * 2);
+  padding-bottom: calc(var(--fz-body) * 2);
+}
+
+body {
+  margin: 0;
+  font-family: var(--ff-sans);
+  font-size: var(--fz-body);
+  font-weight: var(--fw-reg);
+  color: var(--clr-neutral-80);
+  background: url(../images/bg-main-mobile.png) no-repeat 30vw -6em/90%;
+  line-height: 1.5;
+}
+
+a.btn {
+  text-decoration: none;
+  display: inline-block;
+  color: inherit;
+}
+}
