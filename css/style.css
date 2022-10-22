@@ -75,12 +75,15 @@ body {
   font-size: var(--fz-body);
   font-weight: var(--fw-reg);
   color: var(--clr-neutral-80);
+  line-height: 1.5;
+}
+
+.background {
   /* background: url(../images/bg-main-mobile.png) no-repeat 30vw -6em/90%; */
   background-image: url(../images/bg-main-mobile.png);
   background-repeat: no-repeat;
   background-position: 220% -5rem;
   background-size: 90%;
-  line-height: 1.5;
 }
 
 a.btn {
@@ -251,11 +254,10 @@ main {
     --fz-body: 18px;
   }
 
-  body {
+  .background {
     background-image: url(../images/bg-pattern-1.svg), url(../images/bg-main-tablet.png);
     background-position: 102% -1.5rem, -7rem -7rem;
     background-size: 25%, 125%;
-    background-repeat: no-repeat, no-repeat;
 }
 
   main {
@@ -315,11 +317,10 @@ main {
     --fz-card: 20px;
   }
 
-  body {
+  .background {
     background-image: url(../images/bg-pattern-1.svg), url(../images/bg-main-desktop.png);
     background-position: right -2rem, -7rem -7rem;
     background-size: auto, 115%;
-    background-repeat: no-repeat, no-repeat;
   }
 
   main {
